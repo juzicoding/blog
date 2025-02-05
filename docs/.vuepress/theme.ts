@@ -5,11 +5,11 @@ import {sidebarConfig} from "./sidebar";
 export default hopeTheme({
   // 主题基本选项开始==================================================================
 
-  hostname: "https://itwxe.com",
+  hostname: "https://juzicoding.com",
   author: {
-    name: "IT王小二",
-    url: "https://itwxe.com",
-    email: "itwxe@qq.com",
+    name: "橘子coding",
+    url: "https://juzicoding.com",
+    email: "juzicoding@qq.com",
   },
   license: "Apache-2.0 license",
   favicon: "/favicon.ico",
@@ -33,7 +33,7 @@ export default hopeTheme({
   // logo
   logo: "/favicon.ico",
   // 导航栏仓库地址
-  repo: "itwxe/blog",
+  repo: "juzicoding/blog",
   // 文章信息，可以填入数组，数组的顺序是各条目显示的顺序
   pageInfo: ["Author", "Date", "Original", "Word", "PageView"],
   // 文章最后更新时间
@@ -41,7 +41,7 @@ export default hopeTheme({
   // 页脚信息，可以输入HTMLString
   footer:
       "ICP备案号：" +
-      "<a target=\"_blank\" rel=\"external nofollow noopener noreferrer\" href=\"https://beian.miit.gov.cn/\">" + "赣ICP备2021001966号-2" + "</a>" +
+      "<a target=\"_blank\" rel=\"external nofollow noopener noreferrer\" href=\"https://beian.miit.gov.cn/\">" + "赣ICP备2021001966号-4" + "</a>" +
       "&nbsp;&nbsp;|&nbsp;&nbsp;" +
       "驱动：" +
       "<a target=\"_blank\" rel=\"external nofollow noopener noreferrer\" href=\"https://github.com/vuepress/vuepress-next\">" +
@@ -53,7 +53,7 @@ export default hopeTheme({
       "vuepress-theme-hope" +
       "</a>",
   // 页脚版权信息
-  copyright: "Copyright © 2019 - present IT王小二",
+  copyright: "Copyright © 2019 - present juzicoding",
   // 是否默认显示页脚
   displayFooter: true,
   // 项目所在分支
@@ -107,7 +107,7 @@ export default hopeTheme({
         autoLoad: false // 自动加载 (加载更多)
       },
       sendBtn: "发表",
-      server: "https://itwxe.com/comment",
+      server: "https://juzicoding.com/comment",
       useBackendConf: true
     },
     search: {

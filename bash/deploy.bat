@@ -13,8 +13,8 @@ set deployFlag=%deployFlag:~0,1%
 
 if /i "%deployFlag%"=="Y" (
     echo Start deploy...
-    ssh c-tx "rm -rf /itwxe/blog/dist"
-    scp -r ../dist c-tx:/itwxe/blog/
+    ssh c-jz "rm -rf /juzi/blog/dist"
+    scp -r ../dist c-tx:/juzi/blog/
     echo Deploy completed.
     goto end
 ) else if /i "%deployFlag%"=="N" (

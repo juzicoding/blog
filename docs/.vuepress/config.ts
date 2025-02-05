@@ -4,7 +4,7 @@ import theme from "./theme.js";
 
 export default defineUserConfig({
   lang: "zh-CN",
-  title: "IT技术小站",
+  title: "橘子coding",
   description: "Java程序猿一枚，博客主要分享自己的编程学习笔记、编程技巧、实用工具...等等，当然也会分享职场生活，人生经历。",
   base: "/",
   // 指定 vuepress build 的输出目录
@@ -14,7 +14,7 @@ export default defineUserConfig({
   head: [
     // meta
     ["meta", {name: "robots", content: "all"}],
-    ["meta", {name: "author", content: "IT王小二"}],
+    ["meta", {name: "author", content: "橘子coding"}],
     [
       "meta",
       {
@@ -28,7 +28,7 @@ export default defineUserConfig({
       "meta",
       {
         name: "keywords",
-        content: "IT王小二, IT技术小站, 编程, Java, JVM, 并发编程, MySQL, Redis, MyBatis, Spring, SpringCloud, 系统设计, 分布式, 高可用, 高并发",
+        content: "juzicoding, 橘子coding, 编程, Java, JVM, 并发编程, MySQL, Redis, MyBatis, Spring, SpringCloud, 系统设计, 分布式, 高可用, 高并发",
       },
     ],
     ["meta", {name: "apple-mobile-web-app-capable", content: "yes"}],
