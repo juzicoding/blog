@@ -16,8 +16,8 @@ while true; do
     # 检查用户输入并执行相应操作
     if [ "$deployFlag" = "Y" ]; then
         echo "Start deploy..."
-        ssh c-tx "rm -rf /itwxe/blog/dist"
-        scp -r ../dist c-tx:/itwxe/blog/
+        ssh c-tx "rm -rf /juzi/blog/dist"
+        scp -r ../dist c-tx:/juzi/blog/
         echo "Deploy completed."
         break  # 跳出循环
     elif [ "$deployFlag" = "N" ]; then
