@@ -32,6 +32,8 @@ export default defineUserConfig({
       },
     ],
     ["meta", {name: "apple-mobile-web-app-capable", content: "yes"}],
+    // 添加百度资源平台验证
+    ["meta", {name: "baidu-site-verification", content: "codeva-HGxpQYJQFm"}],
     // 添加百度统计
     [
       "script",
