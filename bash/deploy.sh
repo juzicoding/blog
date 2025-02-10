@@ -1,29 +1,19 @@
 #!/bin/bash
 
-# 执行构建命令
+#export LANG=en_US.UTF-8 # macOS 默认是 UTF-8，不需要额外设置
+
 pnpm run build
 
-# 设置工作目录为当前脚本所在目录
-cd "$(dirname "$0")"
+echo "开始发布..."
 
-# 循环提示用户输入，直到输入正确为止
-while true; do
-    read -p "Whether to deploy to a server? (Y/N): " deployFlag
+tar -cvf dist.tar -C ../ dist
+echo "打包成功"
 
-    # 获取用户输入的第一个字符并转换为大写
-    deployFlag=$(echo "$deployFlag" | tr '[:lower:]' '[:upper:]' | cut -c1)
+scp dist.tar c-jz:/juzi/blog/
+echo "上传 dist.tar 到服务器成功"
 
-    # 检查用户输入并执行相应操作
-    if [ "$deployFlag" = "Y" ]; then
-        echo "Start deploy..."
-        ssh c-tx "rm -rf /juzi/blog/dist"
-        scp -r ../dist c-tx:/juzi/blog/
-        echo "Deploy completed."
-        break  # 跳出循环
-    elif [ "$deployFlag" = "N" ]; then
-        echo "End deploy."
-        break  # 跳出循环
-    else
-        echo "Invalid input, please enter Y or N."
-    fi
-done
+ssh c-jz "rm -rf /juzi/blog/dist && tar -xvf /juzi/blog/dist.tar -C /juzi/blog && rm -f /juzi/blog/dist.tar"
+echo "发布成功"
+
+rm -f dist.tar
+echo "删除本地 dist.tar 成功"

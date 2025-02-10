@@ -1,30 +1,19 @@
 @echo off
 
+chcp 65001 > nul
+
 call pnpm run build
 
-cd /d "%~dp0"
+echo 开始发布...
 
-setlocal
+tar -cvf dist.tar -C ../ dist
+echo 打包成功
 
-:prompt
-set /p deployFlag=Whether to deploy to a server? (Y/N):
+scp dist.tar c-jz:/juzi/blog/
+echo 上传 dist.tar 到服务器成功
 
-set deployFlag=%deployFlag:~0,1%
+ssh c-jz "rm -rf /juzi/blog/dist && tar -xvf /juzi/blog/dist.tar -C /juzi/blog && rm -f /juzi/blog/dist.tar"
+echo 发布成功
 
-if /i "%deployFlag%"=="Y" (
-    echo Start deploy...
-    ssh c-jz "rm -rf /juzi/blog/dist"
-    scp -r ../dist c-tx:/juzi/blog/
-    echo Deploy completed.
-    goto end
-) else if /i "%deployFlag%"=="N" (
-    echo End deploy...
-    goto end
-) else (
-    echo Invalid input, please enter Y or N.
-    goto prompt
-)
-
-:end
-pause
-endlocal
+del /f /q dist.tar
+echo 删除本地 dist.tar 成功
