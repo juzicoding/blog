@@ -7,20 +7,17 @@
   font-family: "LXGWWenKaiMono-Regular";
   src: url("/font/LXGWWenKaiMono-Regular.woff2");
 }
-@font-face {
-  font-family: "title-font";
-  src: url("/font/LXGWWenKaiMono-Regular-title-font.woff2");
-}
 
+// markdown中引用样式修改
 blockquote {
   //border-color: #2980B9;
-  background: #eef9fd;
-  border-left: 0.3rem solid #2980B9;
+  background: #dff5ed;
+  border-left: 0.3rem solid #3A9D78;
   border-radius: 0.3rem;
   padding: 0.6rem;
 }
 
-// 站点标题字体
+// 站点标题
 .vp-site-name, #main-title {
-  font-family: "title-font";
+  //font-weight: 500;
 }
