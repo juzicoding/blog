@@ -16,4 +16,6 @@ ssh c-jz "rm -rf /juzi/blog/dist && tar -xvf /juzi/blog/dist.tar -C /juzi/blog &
 echo 发布成功
 
 del /f /q dist.tar
-echo 删除本地 dist.tar 成功
+cd ..
+rd /s /q dist
+echo 删除本地 dist.tar, dist 成功
