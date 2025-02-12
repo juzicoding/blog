@@ -12,7 +12,7 @@ export default hopeTheme({
     email: "juzicoding@qq.com",
   },
   license: "Apache-2.0 license",
-  favicon: "/favicon.ico",
+  favicon: "/favicon.png",
 
   // navbar
   navbar: navbarConfig,
@@ -31,7 +31,7 @@ export default hopeTheme({
   // 主题布局选项开始==================================================================
 
   // logo
-  logo: "/favicon.ico",
+  logo: "/favicon.png",
   // 导航栏仓库地址
   repo: "juzicoding/blog",
   // 文章信息，可以填入数组，数组的顺序是各条目显示的顺序
@@ -63,11 +63,10 @@ export default hopeTheme({
 
   // 主题外观选项开始==================================================================
 
-  // 字体图标资源链接，支持 'iconfont' 和 'font-awesome' 关键字。
-  iconAssets: "//at.alicdn.com/t/c/font_3627793_6t1jvj2bghp.css",
-  iconPrefix: "iconfont icon-",
   // 是否开启纯净模式，启用此功能将禁用一些花哨的样式
   pure: true,
+  // 专注模式
+  focus: false,
   // 深色模式
   darkmode: "disable",
 
@@ -93,22 +92,27 @@ export default hopeTheme({
     //   autoExcerpt: true,
     // },
 
+    // 图标支持
+    icon: {
+      assets: "//at.alicdn.com/t/c/font_3627793_6t1jvj2bghp.css",
+    },
+
     // 如果你不需要评论，可以直接删除 comment 配置，
     // 以下配置仅供体验，如果你需要评论，请自行配置并使用自己的环境，详见文档。
     // 为了避免打扰主题开发者以及消耗他的资源，请不要在你的正式环境中直接使用下列配置!!!!!
     comment: {
-      provider: "Artalk",
-      comment: true,
-      placeholder: "请填写昵称及邮箱，用于接收回复！",
-      noComment: "「空空如也」",
-      pagination: {
-        pageSize: 20,   // 每页评论数
-        readMore: true, // 加载更多 or 分页条
-        autoLoad: false // 自动加载 (加载更多)
-      },
-      sendBtn: "发表",
-      server: "https://juzicoding.com/comment",
-      useBackendConf: true
+      // provider: "Artalk",
+      // comment: true,
+      // placeholder: "请填写昵称及邮箱，用于接收回复！",
+      // noComment: "「空空如也」",
+      // pagination: {
+      //   pageSize: 20,   // 每页评论数
+      //   readMore: true, // 加载更多 or 分页条
+      //   autoLoad: false // 自动加载 (加载更多)
+      // },
+      // sendBtn: "发表",
+      // server: "https://juzicoding.com/comment",
+      // useBackendConf: true
     },
     search: {
       locales: {
