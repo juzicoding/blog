@@ -68,7 +68,7 @@ export default hopeTheme({
   // 专注模式
   focus: false,
   // 深色模式
-  darkmode: "disable",
+  DarkMode: "disable",
 
   // 插件开始========================================================================、
 
@@ -77,6 +77,7 @@ export default hopeTheme({
   markdown: {
     highlighter: {
       type: "shiki",
+      lineNumbers: false,
     },
     figure: false,
     imgLazyload: false,
