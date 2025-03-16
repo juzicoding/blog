@@ -6,7 +6,8 @@ pnpm run build
 
 echo "开始发布..."
 
-tar -cvf dist.tar -C ../ dist
+# COPYFILE_DISABLE=1 避免打包出 `._` 文件
+COPYFILE_DISABLE=1 tar -cvf dist.tar -C ../ dist
 echo "打包成功"
 
 scp dist.tar c-jz:/juzi/blog/
