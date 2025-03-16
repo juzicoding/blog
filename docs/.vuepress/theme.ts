@@ -68,7 +68,7 @@ export default hopeTheme({
   // 专注模式
   focus: false,
   // 深色模式
-  DarkMode: "disable",
+  darkmode: "disable",
 
   // 插件开始========================================================================、
 
