@@ -38,7 +38,7 @@ export const navbarConfig = navbar([
       {
         text: '消息中间件',
         icon: "message-oriented-middleware",
-        link: '/java-notes/message-oriented-middleware/01.RabbitMQ/01.Linux单机安装RabbitMQ.md',
+        link: '/java-notes/message-oriented-middleware/README.md',
       },
       {
         text: 'Zookeeper',

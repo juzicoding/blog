@@ -70,6 +70,7 @@ export const sidebarConfig = sidebar({
       icon: "message-oriented-middleware",
       collapsible: true,
       children: [
+        "",
         {
           text: "RabbitMQ",
           icon: "rabbitmq",
