@@ -5,6 +5,7 @@ export const sidebarConfig = sidebar({
     {
       text: "并发编程",
       icon: "concurrent",
+      expanded: true,
       collapsible: true,
       children: "structure",
     },
@@ -14,6 +15,7 @@ export const sidebarConfig = sidebar({
     {
       text: "JVM",
       icon: "java",
+      expanded: true,
       collapsible: true,
       children: "structure",
     },
@@ -22,11 +24,13 @@ export const sidebarConfig = sidebar({
     {
       text: "设计模式",
       icon: "design-pattern",
+      expanded: true,
       collapsible: true,
       children: [
         {
           text: "创建型模式",
           icon: "design-pattern",
+          expanded: true,
           collapsible: true,
           prefix: "01.创建型模式",
           children: "structure",
@@ -34,6 +38,7 @@ export const sidebarConfig = sidebar({
         {
           text: "结构性模式",
           icon: "design-pattern",
+          expanded: true,
           collapsible: true,
           prefix: "02.结构性模式",
           children: "structure",
@@ -41,6 +46,7 @@ export const sidebarConfig = sidebar({
         {
           text: "行为型模式",
           icon: "design-pattern",
+          expanded: true,
           collapsible: true,
           prefix: "03.行为型模式",
           children: "structure",
@@ -52,6 +58,7 @@ export const sidebarConfig = sidebar({
     {
       text: "MySQL",
       icon: "mysql",
+      expanded: true,
       collapsible: true,
       children: "structure",
     },
@@ -60,6 +67,7 @@ export const sidebarConfig = sidebar({
     {
       text: "Redis",
       icon: "redis",
+      expanded: true,
       collapsible: true,
       children: "structure",
     },
@@ -68,6 +76,7 @@ export const sidebarConfig = sidebar({
     {
       text: "消息中间件",
       icon: "message-oriented-middleware",
+      expanded: true,
       collapsible: true,
       children: [
         "",
@@ -75,6 +84,7 @@ export const sidebarConfig = sidebar({
           text: "RabbitMQ",
           icon: "rabbitmq",
           prefix: "01.RabbitMQ",
+          expanded: true,
           collapsible: true,
           children: "structure",
         },
@@ -85,6 +95,7 @@ export const sidebarConfig = sidebar({
     {
       text: "Zookeeper",
       icon: "zookeeper",
+      expanded: true,
       collapsible: true,
       children: "structure",
     },
@@ -94,6 +105,7 @@ export const sidebarConfig = sidebar({
     {
       text: "Nginx",
       icon: "nginx",
+      expanded: true,
       collapsible: true,
       children: "structure",
     },
@@ -102,6 +114,7 @@ export const sidebarConfig = sidebar({
     {
       text: "Mybatis",
       icon: "mybatis",
+      expanded: true,
       collapsible: true,
       children: "structure",
     },
@@ -110,6 +123,7 @@ export const sidebarConfig = sidebar({
   //     {
   //         text: "Python筑基篇",
   //         icon: "base",
+  //         expanded: true,
   //         collapsible: true,
   //         children: "structure",
   //     },
@@ -118,6 +132,7 @@ export const sidebarConfig = sidebar({
     {
       text: "HTML",
       icon: "HTML",
+      expanded: true,
       collapsible: true,
       children: "structure",
     },
@@ -126,6 +141,7 @@ export const sidebarConfig = sidebar({
     {
       text: "CSS",
       icon: "CSS",
+      expanded: true,
       collapsible: true,
       children: "structure",
     },
@@ -134,6 +150,7 @@ export const sidebarConfig = sidebar({
     {
       text: "JavaScript",
       icon: "JS",
+      expanded: true,
       collapsible: true,
       children: "structure",
     },
@@ -142,19 +159,22 @@ export const sidebarConfig = sidebar({
     {
       text: "软件安装",
       icon: "software-installation",
+      expanded: true,
       collapsible: true,
       children: [
         {
           text: "Linux",
           icon: "linux",
           prefix: "01.Linux",
+          expanded: true,
           collapsible: true,
           children: "structure",
         },
         {
           text: "Window",
           icon: "window",
-          prefix: "02.WIndow",
+          prefix: "02.Window",
+          expanded: true,
           collapsible: true,
           children: "structure",
         },
@@ -165,6 +185,7 @@ export const sidebarConfig = sidebar({
     {
       text: "博客搭建",
       icon: "blog-build",
+      expanded: true,
       collapsible: true,
       children: "structure",
     },
@@ -173,6 +194,7 @@ export const sidebarConfig = sidebar({
     {
       text: "网站相关",
       icon: "website-related",
+      expanded: true,
       collapsible: true,
       children: "structure",
     },
@@ -181,6 +203,7 @@ export const sidebarConfig = sidebar({
     {
       text: "Docker",
       icon: "docker",
+      expanded: true,
       collapsible: true,
       children: "structure",
     },
