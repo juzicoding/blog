@@ -86,6 +86,7 @@ export default hopeTheme({
     tasklist: true,
     sub: true,
     sup: true,
+    demo: true,
   },
 
   plugins: {
