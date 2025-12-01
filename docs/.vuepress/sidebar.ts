@@ -72,7 +72,7 @@ export const sidebarConfig = sidebar({
       children: "structure",
     },
   ],
-  "/java-notes/message-oriented-middleware/": [
+  "/java-notes/mq/": [
     {
       text: "消息中间件",
       icon: "message-oriented-middleware",
