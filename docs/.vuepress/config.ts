@@ -7,6 +7,7 @@ export default defineUserConfig({
   title: "橘子coding",
   description: "Java程序猿一枚，博客主要分享自己的编程学习笔记、编程技巧、实用工具...等等，当然也会分享职场生活，人生经历。",
   base: "/",
+  port: 8369,
   // 指定 vuepress build 的输出目录
   dest: "./dist",
   // 是否开启默认预加载 js
