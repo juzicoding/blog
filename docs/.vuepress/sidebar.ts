@@ -11,6 +11,16 @@ export const sidebarConfig = sidebar({
     },
   ],
 
+  "/java-notes/concurrency/": [
+    {
+      text: "并发编程",
+      icon: "concurrent",
+      expanded: true,
+      collapsible: true,
+      children: "structure",
+    },
+  ],
+
   "/java-notes/jvm/": [
     {
       text: "JVM",

@@ -16,6 +16,11 @@ export const navbarConfig = navbar([
         link: '/java-notes/concurrent/01.线程基础、线程之间的共享和协作.md',
       },
       {
+        text: '并发编程V2',
+        icon: "concurrent",
+        link: '/java-notes/concurrency/01.快速入门.md',
+      },
+      {
         text: 'JVM',
         icon: "java",
         link: '/java-notes/jvm/01.JVM组成结构.md',
