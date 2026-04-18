@@ -10,3 +10,5 @@ node_modules/
 dist/
 # Build files
 packages/*/lib/
+#.playwright-mcp/
+.playwright-mcp/
