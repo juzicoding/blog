@@ -1,16 +1,6 @@
 import {sidebar} from "vuepress-theme-hope";
 
 export const sidebarConfig = sidebar({
-  "/java-notes/concurrent/": [
-    {
-      text: "并发编程",
-      icon: "concurrent",
-      expanded: true,
-      collapsible: true,
-      children: "structure",
-    },
-  ],
-
   "/java-notes/concurrency/": [
     {
       text: "并发编程",
