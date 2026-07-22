@@ -67,6 +67,13 @@ export const navbarConfig = navbar([
         text: "Python笔记",
         icon: "python",
         link: "/python-notes/python-base/01.Python开发环境搭建.md",
+        children: [
+            {
+                text: 'Python筑基篇',
+                icon: "base",
+                link: '/python-notes/python-base/01.Python开发环境搭建.md',
+            }
+        ]
     },
     {
         text: "前端笔记",
