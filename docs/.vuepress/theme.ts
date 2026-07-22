@@ -116,13 +116,13 @@ export default hopeTheme({
             // server: "https://juzicoding.com/comment",
             // useBackendConf: true
         },
-        search: {
+        slimsearch: {
+            indexContent: false,
             locales: {
                 '/': {
                     placeholder: '搜索',
                 },
             },
-            maxSuggestions: 20,
         },
         catalog: false,
     },
