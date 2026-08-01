@@ -7,7 +7,9 @@ pnpm run build
 echo "开始发布..."
 
 # COPYFILE_DISABLE=1 避免打包出 `._` 文件
-COPYFILE_DISABLE=1 tar -cvf dist.tar -C ../ dist
+# --no-xattrs 避免把 macOS 的 com.apple.provenance 扩展属性打包进去，
+# 否则 Linux 服务器解压时会打印大量 `Ignoring unknown extended header keyword` 警告
+COPYFILE_DISABLE=1 tar --no-xattrs -cvf dist.tar -C ../ dist
 echo "打包成功"
 
 scp dist.tar c-jz:/juzi/blog/
