@@ -12,10 +12,10 @@ echo "开始发布..."
 COPYFILE_DISABLE=1 tar --no-xattrs -cvf dist.tar -C ../ dist
 echo "打包成功"
 
-scp dist.tar c-jz:/juzi/blog/
+scp dist.tar c-jz:/data/blog/
 echo "上传 dist.tar 到服务器成功"
 
-ssh c-jz "rm -rf /juzi/blog/dist && tar -xvf /juzi/blog/dist.tar -C /juzi/blog && rm -f /juzi/blog/dist.tar"
+ssh c-jz "rm -rf /data/blog/dist && tar -xvf /data/blog/dist.tar -C /data/blog && rm -f /data/blog/dist.tar"
 echo "发布成功"
 
 rm -f dist.tar
