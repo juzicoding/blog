@@ -4,7 +4,19 @@
   src: url("/font/JetBrainsMonoNL-Regular.woff2");
 }
 
-@import "https://juzicoding.com/LXGWWenKaiMonoGBScreen/result.css";
+// 正文字号与行高（中文长文更舒适）
+body {
+  font-size: 15px;
+}
+
+#markdown-content {
+  line-height: 1.5;
+}
+
+#markdown-content p,
+#markdown-content li {
+  line-height: 1.5;
+}
 
 // markdown中引用样式修改
 blockquote {
