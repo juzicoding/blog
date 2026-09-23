@@ -12,3 +12,4 @@ dist/
 packages/*/lib/
 #.playwright-mcp/
 .playwright-mcp/
+.pnpm-store
