@@ -50,6 +50,11 @@ export const navbarConfig = navbar([
                 icon: "nginx",
                 link: '/java-notes/nginx/01.nginx+keepalived高可用.md',
             },
+            {
+                text: 'Netty',
+                icon: "Netty",
+                link: '/java-notes/netty/01.网络通信基础与TCP协议栈.md',
+            },
         ]
     },
     {

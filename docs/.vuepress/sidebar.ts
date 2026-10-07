@@ -110,6 +110,15 @@ export const sidebarConfig = sidebar({
             children: "structure",
         },
     ],
+    "/java-notes/netty/": [
+        {
+            text: "Netty",
+            icon: "Netty",
+            expanded: true,
+            collapsible: true,
+            children: "structure",
+        },
+    ],
     "/source-code/mybatis/": [
         {
             text: "Mybatis",

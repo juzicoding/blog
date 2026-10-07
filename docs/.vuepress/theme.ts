@@ -96,7 +96,7 @@ export default hopeTheme({
 
         // 图标支持
         icon: {
-            assets: "//at.alicdn.com/t/c/font_3627793_6t1jvj2bghp.css",
+            assets: "//at.alicdn.com/t/c/font_3627793_zw7uqbnytb8.css",
         },
 
         // 如果你不需要评论，可以直接删除 comment 配置，
