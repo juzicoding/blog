@@ -32,6 +32,8 @@ export default hopeTheme({
 
     // logo
     logo: "/favicon.png",
+    // 导航栏标题
+    navbarTitle: "",
     // 导航栏仓库地址
     repo: "juzicoding/blog",
     // 文章信息，可以填入数组，数组的顺序是各条目显示的顺序
