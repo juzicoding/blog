@@ -1,9 +1,6 @@
-// 标题字体
-//$vp-font-heading: '"JetBrainsMonoNL-Regular", "LXGW WenKai Mono GB Screen"';
-//$vp-font-heading: '"LXGW WenKai Mono GB Screen"';
-// 正文字体
-//$vp-font: '"JetBrainsMonoNL-Regular", "LXGW WenKai Mono GB Screen"';
-//$vp-font: '"LXGW WenKai Mono GB Screen"';
-// 代码块字体
-//$vp-font-mono: '"JetBrainsMonoNL-Regular", "LXGW WenKai Mono GB Screen"';
-//$vp-font-mono: '"JetBrainsMonoNL-Regular"';
+// 导航栏高度（主题默认：桌面 3.75rem / 移动 3.25rem）
+$navbar-height: 3rem;
+$navbar-mobile-height: 2.75rem;
+
+// 导航栏上下内边距（主题默认：桌面 0.7rem / 移动 0.5rem）
+$navbar-padding-y: 0.5rem;
