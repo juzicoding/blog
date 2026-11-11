@@ -21,7 +21,7 @@ actions:
 
 ```
 作者：橘子coding
-原文出处：https://juzicoding.com
+原文出处：https://juzicoding.cn
 ```
 
 ## 联系方式

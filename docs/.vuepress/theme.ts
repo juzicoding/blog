@@ -5,10 +5,10 @@ import {sidebarConfig} from "./sidebar";
 export default hopeTheme({
     // 主题基本选项开始==================================================================
 
-    hostname: "https://juzicoding.com",
+    hostname: "https://juzicoding.cn",
     author: {
         name: "橘子coding",
-        url: "https://juzicoding.com",
+        url: "https://juzicoding.cn",
         email: "juzicoding@qq.com",
     },
     license: "Apache-2.0 license",
@@ -45,7 +45,7 @@ export default hopeTheme({
     // 页脚信息，可以输入HTMLString
     footer:
         "ICP备案号：" +
-        "<a target=\"_blank\" rel=\"external nofollow noopener noreferrer\" href=\"https://beian.miit.gov.cn/\">" + "赣ICP备2021001966号-4" + "</a>" +
+        "<a target=\"_blank\" rel=\"external nofollow noopener noreferrer\" href=\"https://beian.miit.gov.cn/\">" + "赣ICP备2021001966号-5" + "</a>" +
         "&nbsp;&nbsp;|&nbsp;&nbsp;" +
         "驱动：" +
         "<a target=\"_blank\" rel=\"external nofollow noopener noreferrer\" href=\"https://github.com/vuepress/vuepress-next\">" +
@@ -117,7 +117,7 @@ export default hopeTheme({
             //   autoLoad: false // 自动加载 (加载更多)
             // },
             // sendBtn: "发表",
-            // server: "https://juzicoding.com/comment",
+            // server: "https://juzicoding.cn/comment",
             // useBackendConf: true
         },
         slimsearch: {

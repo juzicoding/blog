@@ -34,7 +34,7 @@ export default defineUserConfig({
         ],
         ["meta", {name: "apple-mobile-web-app-capable", content: "yes"}],
         // 添加百度资源平台验证
-        ["meta", {name: "baidu-site-verification", content: "codeva-HGxpQYJQFm"}],
+        ["meta", {name: "baidu-site-verification", content: "codeva-6RknZi5yoP"}],
         // 添加百度统计
         [
             "script",
@@ -42,7 +42,7 @@ export default defineUserConfig({
             `var _hmt = _hmt || [];
             (function() {
                 var hm = document.createElement("script");
-                hm.src = "https://hm.baidu.com/hm.js?3da08960ebab85b5f8e75b6f785e4602";
+                hm.src = "https://hm.baidu.com/hm.js?ae5a228cbc71d93950c6c9b3d58fa6f0";
                 var s = document.getElementsByTagName("script")[0]; 
                 s.parentNode.insertBefore(hm, s);
             })();`,
