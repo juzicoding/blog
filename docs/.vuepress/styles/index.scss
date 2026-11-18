@@ -38,3 +38,16 @@ blockquote {
   margin-right: 4px;
   vertical-align: middle;
 }
+
+// 页脚高度压缩
+.vp-footer-wrapper {
+  padding-block: 0.4rem; // 主题默认 0.75rem
+}
+
+.vp-footer {
+  margin: 0.25rem 1rem; // 主题默认 0.5rem 1rem
+}
+
+.vp-copyright {
+  margin: 2px 0; // 主题默认 6px 0
+}
