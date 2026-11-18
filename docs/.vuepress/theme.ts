@@ -47,6 +47,11 @@ export default hopeTheme({
         "ICP备案号：" +
         "<a target=\"_blank\" rel=\"external nofollow noopener noreferrer\" href=\"https://beian.miit.gov.cn/\">" + "赣ICP备2021001966号-5" + "</a>" +
         "&nbsp;&nbsp;|&nbsp;&nbsp;" +
+        "<a target=\"_blank\" rel=\"external nofollow noopener noreferrer\" href=\"https://beian.mps.gov.cn/#/query/webSearch?code=36082502000198\">" +
+        "<img class=\"beian-icon\" src=\"/备案图标.png\" alt=\"公安备案图标\">" +
+        "赣公网安备 36082502000198 号" +
+        "</a>" +
+        "&nbsp;&nbsp;|&nbsp;&nbsp;" +
         "驱动：" +
         "<a target=\"_blank\" rel=\"external nofollow noopener noreferrer\" href=\"https://github.com/vuepress/vuepress-next\">" +
         "vuepress" +
