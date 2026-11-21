@@ -36,8 +36,8 @@ actions:
 - 2021年12月，博客框架由`Hexo`重构为`VuePress1.x`版本。
 - 2022年 7月，博客框架升级`VuePress2.x-beta`版本。
 - 2022年 9月，网站名称不合规由`IT王小二`修改为`IT技术小站`。
-- 2025年 1月，域名迁移至`juzicoding.com`。
-- 2025年 2月，域名`juzicoding.com`备案完成，正式切换域名。
+- 2025年 1月，域名和笔名对不上，迁移至`juzicoding.com`。
+- 2026年11月，.com域名逐年涨价，迁移至`juzicoding.cn`。
 
 ## 最后
 
